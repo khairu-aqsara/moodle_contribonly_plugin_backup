@@ -2,7 +2,7 @@
 
 ![Backup and Restore Additional Moodle Plugin](moodle_plugin_backup.png)
 
-upgrading Moodle site never been easy job, based on Moodle standar Upgrading guide, we can't copy new files over the old files, that mean we have to move all installed additional plugin to new moodle version directory, This plugin only aims to backup and restore for additional (contribonly) plugins installed on Moodle so we don't need to manually move plugins during the Moodle upgrade process.
+upgrading Moodle site never been easy job, based on Moodle standar Upgrading guide, we can't copy new files over the old files, that mean we have to move all installed additional plugin to new moodle version directory, This plugin only aims to backup and restore for additional (contribonly) plugins installed on Moodle so we don't need to manually move plugins during the Moodle upgrade process. after we move the additional plugin to original folder then let moodle do the upgrade thing for those plugin if necessary
 
 ## How to use
 
