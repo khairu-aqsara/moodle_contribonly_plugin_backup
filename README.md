@@ -11,7 +11,7 @@ upgrading Moodle site never been easy job, based on Moodle standar Upgrading gui
 Make sure you on the root directory of installed moodle. this process will copy the additional plugin to `--folder` alongsite with their `metadata` in json `format` for restore purposes
 
 ```
-wget https://github.com/khairu-aqsara/moodle_contribonly_plugin_backup/plugin_backups.php
+wget https://raw.githubusercontent.com/khairu-aqsara/moodle_contribonly_plugin_backup/main/plugin_backups.php
 chmod +x plugin_backups.php
 sudo -u www-data php plugin_backups.php --destination=/var/www/html --folder=plugin_backup --mode=backup
 ```
@@ -21,7 +21,7 @@ sudo -u www-data php plugin_backups.php --destination=/var/www/html --folder=plu
 Make sure you on the root directory of new version of installed moodle and before doing upgrade process. this process will copy the additional plugin from `--folder` to new installed moodle folder based on plugin metadata `rootdir`
 
 ```
-wget https://github.com/khairu-aqsara/moodle_contribonly_plugin_backup/plugin_backups.php
+wget https://raw.githubusercontent.com/khairu-aqsara/moodle_contribonly_plugin_backup/main/plugin_backups.php
 chmod +x plugin_backups.php
 sudo -u www-data php plugin_backups.php --destination=/var/www/html --folder=plugin_backup --mode=restore
 ```
