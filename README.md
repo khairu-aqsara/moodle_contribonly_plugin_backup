@@ -40,6 +40,11 @@ example of plugin metadata
 
 ### Tested on
 
+ - Windows 10 64 Bit
+ - Mac Os X Big Sure
+ - Ubuntu Server 18,19,20
+ - Centos 7,8
+
 ```
-Moodle 3.5, 3.6, 3.7, 3.8, 3.9
+Moodle 3.5, 3.6, 3.7, 3.8, 3.9, 3.11
 ```
